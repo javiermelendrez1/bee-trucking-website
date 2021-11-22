@@ -26,6 +26,11 @@ body {
 .nav-logo {
   width: 40px;
   height: 40px;
+  position: relative;
+  -webkit-animation: navComponents;
+          animation: navComponents;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 .nav-logo-link-img {
@@ -46,6 +51,11 @@ body {
 
 .nav-links-ul-li {
   margin: 10px;
+  position: relative;
+  -webkit-animation: navComponents;
+          animation: navComponents;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
 }
 
 .nav-links-ul-li a {
@@ -56,5 +66,28 @@ body {
 .nav-contact a {
   color: white;
   text-decoration: none;
+  position: relative;
+  -webkit-animation: navComponents;
+          animation: navComponents;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+@-webkit-keyframes navComponents {
+  from {
+    top: -40px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+@keyframes navComponents {
+  from {
+    top: -40px;
+  }
+  to {
+    top: 0px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
