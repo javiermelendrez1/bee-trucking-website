@@ -133,7 +133,7 @@ body {
   }
 }
 
-.services {
+.services-heading-container {
   width: 50vw;
   margin: 0 auto;
   background-color: white;
@@ -147,7 +147,7 @@ body {
           animation-fill-mode: forwards;
 }
 
-.services-heading {
+.services-heading-container-text {
   position: relative;
   text-align: center;
   font-size: 40px;
