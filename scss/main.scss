@@ -106,3 +106,16 @@
         top: -200px;
     }
 }
+.services-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0px 40px;
+    &-container {
+        width: 33%;
+        &-img{
+            width: 100%;
+            height: 300px;
+        }
+    }
+}
